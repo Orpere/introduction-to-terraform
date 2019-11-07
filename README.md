@@ -20,3 +20,14 @@ this repo has target explain terraform following what I learn on the:
 3) Expose a way for individuals and teams to safely and predictably change infrastructure
 4) Provide a Workflow as is technology agnostic
 5) Manage anything with an API
+
+## Terraform features
+
+1) Provide a high-level  abstraction of infrastructure (IAC)
+   1) IAC - infrastructure as code 
+2) Allows for composition and combination
+   1) abstraction 
+3) Supports Parallel management of resources (graph,fast)
+   1) terraform decide when to execute parallel action or sequential
+4) Separates planning from execution (dry-run)
+   1) terraform permit us a test preview using plan which gave us a reliable view of the future infrastructure
